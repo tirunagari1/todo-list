@@ -1,10 +1,5 @@
 let myNodelist = document.getElementsByTagName("LI");
-/*
-const closeMyDiv=()=>{
-	const div =this.parentElement;
-		div.style.display ="none";
-}
-*/
+
 function closeMyDiv() {
     var div = this.parentElement;
     div.style.display = "none";
@@ -24,15 +19,7 @@ for (const x in myNodelist)
 	}
 }
 
-/*
-let close=document.getElementByClassName("close");
-for(const x in close){
-	close[x].onclick=()=>{
-		const div =this.parentElement;
-		div.style.display ="none";
-	}
-}
-*/
+
 
 function todolist(){
 	let item= document.getElementById("todoInput").value;
@@ -59,14 +46,4 @@ let txt= document.createTextNode("\u00D7");
 	}
 
 
-
-	
-/*
-	 let btn = document.createElement("BUTTON");
-newItem.appendChild(btn);
-	 
-	document.getElementById("myUL").appendChild(newItem)
-}
-var myNodelist = document.getElementsByTagName("LI");
-*/
 
